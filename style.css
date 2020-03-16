@@ -16,6 +16,11 @@ body {
     display: inline-block;
 }
 
+#primo a, #primo h1 {
+    display: block;
+    margin: 30px;
+}
+
 .container {
     width: 95vw;
     height: 90vh;
@@ -61,36 +66,46 @@ body {
     padding: 0 10px;
     font-size: 14px;
     font-family: 'Quicksand', sans-serif;
+    background-color: lightgray;
+    padding: 10px;
 }
 
 #primo {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
     margin: 10px;
     float: left;
     width: 30%;
     height: 95%;
-    background-color: blue;
+    background-color: white;
 }
 
 #secondo {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
     margin: 10px;
     float: left;
     width: 40%;
     height: 95%;
-    background-color: blue;
+    background-color: white;
 }
 
 #terzo {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
     margin: 10px;
     float: right;
     width: 25%;
     height: 70%;
-    background-color: blue;
+    background-color: white;
 }
 
 #quarto {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
     margin: 10px;
     float: right;
     width: 25%;
     height: 19%;
-    background-color: blue;
+    background-color: white;
 }
